@@ -9,3 +9,9 @@ An Unofficial PBS Kids provider for PlayOn. It is currently in development, does
 
 # How to Use (without Building)
 At this time, this is not a recommended way of using this plugin. In order to use this plugin, drop the dist/PBSKids.plugin into your PlayOn plugins folder. This folder is likely C:\Program Files (x86)\MediaMall\plugins. You will also need the Newtownsoft.Json.dll for Json.NET for .NET 2.0.
+
+# Known Issues
+- Really bad resolution
+- Doesn't show all shows
+- Doesn't show clips
+- 20 seconds of black on the end of the videos
