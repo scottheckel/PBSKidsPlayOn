@@ -149,7 +149,7 @@ namespace PBSKidsPlayOn
                     var playlist = service.FetchPlaylist(source.JsonUrl);
                     foreach (var item in playlist.Collections.Episodes.Content)
                     {
-                        VFS.CreateVideoFile(vfc, item.Title, source.BaseVideoUrl + item.Id, "", "", DateTime.Today, "http://pbskids.org/video/daniel-tigers-neighborhood/" + item.Id, null, 25 * 60, 0, null, null);
+                        VFS.CreateVideoFile(vfc, item.Title, source.BaseVideoUrl + item.Id, item.Description, item.Images != null ? item.Images.Mezzanine : null, DateTime.Today, "http://pbskids.org/video/daniel-tigers-neighborhood/" + item.Id, null, 25 * 60, 0, null, null);
                     }
                 }
                 
