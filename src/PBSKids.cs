@@ -36,16 +36,24 @@ namespace PBSKidsPlayOn
 	[Director(typeof(PBSKidsSettings))]
 	class PBSKidsDirector : PluginDirector
 	{
+        const int rightSidebarWidth = 120;
+        const int topNavHeight = 120;
+        const int bottomNavHeight = 127;
 
+        /// <summary>
+        /// Browser Size
+        /// </summary>
+        /// <remarks>Let's try to get as close as possible to 1280 by 724</remarks>
+        public override Size BrowserSize => new Size(1280 + rightSidebarWidth, 724 + topNavHeight + bottomNavHeight);
+
+        /// <summary>
+        /// Retrieve the Player Viewing Rectangle
+        /// </summary>
+        /// <param name="playerSize"></param>
+        /// <returns>Rectangle in relation to the Browser Window to Show the Player</returns>
         public override Rectangle GetPlayerViewingRectangle(Size playerSize)
         {
-            // TODO: SH - For some reason PBS Kids shows us this tiny video that doesn't look good.
-            return new Rectangle(90, 100, 460, 260);
-        }
-
-        public override bool StartPlayerSearch(string urlRequested)
-        {
-            return base.StartPlayerSearch(urlRequested);
+            return new Rectangle(6, 120, 1280, 724);
         }
 
         /// <summary>
@@ -57,7 +65,7 @@ namespace PBSKidsPlayOn
             // NOTE: SH - We can get direct access to the player by accessing it via document.getElementById('video-player').player.player_; although, we don't currently do this.
 
             // Hide the player cruft
-            ExecuteScriptBlock("document.getElementsByClassName('brand')[0].style.display = 'none';document.getElementsByClassName('vjs-control-bar')[0].style.display = 'none';");
+            ExecuteScriptBlock("document.getElementById('browsing-panel').style.display = 'none';document.getElementsByClassName('brand')[0].style.display = 'none';document.getElementsByClassName('vjs-control-bar')[0].style.display = 'none';");
 
             // Abort auto play and tell playon to stop
             ExecuteScriptBlock("PBSKidsPlayerEvents.on('VOD_MEDIA_END', function() {window.PBSKidsPlayerEvents.emit(window.PBSKidsPlayerEvents.UNLOAD_PLAYER);});");
@@ -166,8 +174,8 @@ namespace PBSKidsPlayOn
 		{
 			// Since this is flash media we use FlastDirect.
 			PlaybackDescriptor pd = new PlaybackDescriptor(vvf.Path, MediaFormat.HTML5);
-			pd.AudioAbortInterval = 20; // Time in seconds that must pass without audio before stopping
-			pd.VideoAbortInterval = 20; // Time in seconds that must pass without video before stopping
+			pd.AudioAbortInterval = 10; // Time in seconds that must pass without audio before stopping
+			pd.VideoAbortInterval = 10; // Time in seconds that must pass without video before stopping
 			return pd;
 		}
 	}
