@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PBSKidsPlayOn", "src\PBSKidsPlayOn.csproj", "{363700E6-1F20-442F-9B2F-CA701599429E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "test\Test\Test.csproj", "{AF75E6DD-A7AF-4F57-BAD9-CCCF677CB383}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug (separate)|Any CPU = Debug (separate)|Any CPU
@@ -21,6 +23,14 @@ Global
 		{363700E6-1F20-442F-9B2F-CA701599429E}.Release (separate)|Any CPU.Build.0 = Release (separate)|Any CPU
 		{363700E6-1F20-442F-9B2F-CA701599429E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{363700E6-1F20-442F-9B2F-CA701599429E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF75E6DD-A7AF-4F57-BAD9-CCCF677CB383}.Debug (separate)|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF75E6DD-A7AF-4F57-BAD9-CCCF677CB383}.Debug (separate)|Any CPU.Build.0 = Debug|Any CPU
+		{AF75E6DD-A7AF-4F57-BAD9-CCCF677CB383}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF75E6DD-A7AF-4F57-BAD9-CCCF677CB383}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF75E6DD-A7AF-4F57-BAD9-CCCF677CB383}.Release (separate)|Any CPU.ActiveCfg = Release|Any CPU
+		{AF75E6DD-A7AF-4F57-BAD9-CCCF677CB383}.Release (separate)|Any CPU.Build.0 = Release|Any CPU
+		{AF75E6DD-A7AF-4F57-BAD9-CCCF677CB383}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF75E6DD-A7AF-4F57-BAD9-CCCF677CB383}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
