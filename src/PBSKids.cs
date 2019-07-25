@@ -92,21 +92,21 @@ namespace PBSKidsPlayOn
             {
                 new ContentSource
                 {
-                    Name = "Sesame Street",
-                    BaseVideoUrl = "https://pbskids.org/video/sesame-street/",
-                    JsonUrl = "https://cms-tc.pbskids.org/pbskidsvideoplaylists/sesame-street.json"
+                    Name = "Arthur",
+                    BaseVideoUrl = "https://pbskids.org/video/arthur/",
+                    JsonUrl = "https://content.services.pbskids.org/v2/kidspbsorg/programs/arthur"
                 },
                 new ContentSource
                 {
-                    Name = "Daniel Tiger's Neighborhood",
-                    BaseVideoUrl = "http://pbskids.org/video/daniel-tigers-neighborhood/",
-                    JsonUrl = "https://cms-tc.pbskids.org/pbskidsvideoplaylists/daniel-tigers-neighborhood.json"
+                    Name = "Caillou",
+                    BaseVideoUrl = "https://pbskids.org/video/caillou/",
+                    JsonUrl = "https://content.services.pbskids.org/v2/kidspbsorg/programs/caillou"
                 },
                 new ContentSource
                 {
-                    Name = "Wild Kratts",
-                    BaseVideoUrl = "https://pbskids.org/video/wild-kratts/",
-                    JsonUrl = "https://cms-tc.pbskids.org/pbskidsvideoplaylists/wild-kratts.json"
+                    Name = "Cat in the Hat",
+                    BaseVideoUrl = "https://pbskids.org/video/cat-in-the-hat/",
+                    JsonUrl = "https://content.services.pbskids.org/v2/kidspbsorg/programs/cat-in-the-hat"
                 },
                 new ContentSource
                 {
@@ -116,9 +116,87 @@ namespace PBSKidsPlayOn
                 },
                 new ContentSource
                 {
+                    Name = "Cyberchase",
+                    BaseVideoUrl = "https://pbskids.org/video/cyberchase/",
+                    JsonUrl = "https://content.services.pbskids.org/v2/kidspbsorg/programs/cyberchase"
+                },
+                new ContentSource
+                {
+                    Name = "Daniel Tiger's Neighborhood",
+                    BaseVideoUrl = "http://pbskids.org/video/daniel-tigers-neighborhood/",
+                    JsonUrl = "https://cms-tc.pbskids.org/pbskidsvideoplaylists/daniel-tigers-neighborhood.json"
+                },
+                new ContentSource
+                {
+                    Name = "Design Squad",
+                    BaseVideoUrl = "https://pbskids.org/video/design-squad-nation/",
+                    JsonUrl = "https://content.services.pbskids.org/v2/kidspbsorg/programs/design-squad-nation"
+                },
+                new ContentSource
+                {
+                    Name = "Dinosaur Train",
+                    BaseVideoUrl = "https://pbskids.org/video/dinosaur-train/",
+                    JsonUrl = "https://content.services.pbskids.org/v2/kidspbsorg/programs/dinosaur-train"
+                },
+                new ContentSource
+                {
+                    Name = "Fizzy's Lunch Lab",
+                    BaseVideoUrl = "https://pbskids.org/video/fizzys-lunch-lab/",
+                    JsonUrl = "https://content.services.pbskids.org/v2/kidspbsorg/programs/fizzys-lunch-lab"
+                },
+                new ContentSource
+                {
+                    Name = "Let's Go Luna",
+                    BaseVideoUrl = "https://pbskids.org/video/lets-go-luna/",
+                    JsonUrl = "https://cms-tc.pbskids.org/pbskidsvideoplaylists/lets-go-luna.json"
+                },
+                new ContentSource
+                {
+                    Name = "Martha Speaks",
+                    BaseVideoUrl = "https://pbskids.org/video/martha-speaks/",
+                    JsonUrl = "https://content.services.pbskids.org/v2/kidspbsorg/programs/martha-speaks"
+                },
+                new ContentSource
+                {
+                    Name = "Mister Rogers",
+                    BaseVideoUrl = "https://pbskids.org/video/mister-rogers/",
+                    JsonUrl = "https://content.services.pbskids.org/v2/kidspbsorg/programs/mister-rogers"
+                },
+                new ContentSource
+                {
+                    Name = "Molly of Denali",
+                    BaseVideoUrl = "https://pbskids.org/video/molly-of-denali/",
+                    JsonUrl = "https://content.services.pbskids.org/v2/kidspbsorg/programs/molly-of-denali"
+                },
+                new ContentSource
+                {
+                    Name = "Nature Cat",
+                    BaseVideoUrl = "https://pbskids.org/video/nature-cat/",
+                    JsonUrl = "https://content.services.pbskids.org/v2/kidspbsorg/programs/nature-cat"
+                },
+                new ContentSource
+                {
                     Name = "Odd Squad",
                     BaseVideoUrl = "https://pbskids.org/video/odd-squad/",
                     JsonUrl = "https://cms-tc.pbskids.org/pbskidsvideoplaylists/odd-squad.json"
+                },
+                new ContentSource
+                {
+                    Name = "Oh Noah!",
+                    BaseVideoUrl = "https://pbskids.org/video/oh-noah/",
+                    JsonUrl = "https://content.services.pbskids.org/v2/kidspbsorg/programs/oh-noah"
+                },
+                new ContentSource
+                {
+                    Name = "The Ruff Ruffman Show",
+                    BaseVideoUrl = "https://pbskids.org/video/ruff-ruffman-show/",
+                    JsonUrl = "https://content.services.pbskids.org/v2/kidspbsorg/programs/ruff-ruffman-show"
+                },
+                new ContentSource
+                {
+                    Name = "Peg + Cat",
+                    BaseVideoUrl = "https://pbskids.org/video/peg/",
+                    JsonUrl = "https://content.services.pbskids.org/v2/kidspbsorg/programs/peg"
                 },
                 new ContentSource
                 {
@@ -128,9 +206,63 @@ namespace PBSKidsPlayOn
                 },
                 new ContentSource
                 {
-                    Name = "Let's Go Luna",
-                    BaseVideoUrl = "https://pbskids.org/video/lets-go-luna/",
-                    JsonUrl = "https://cms-tc.pbskids.org/pbskidsvideoplaylists/lets-go-luna.json"
+                    Name = "Plum Landing",
+                    BaseVideoUrl = "https://pbskids.org/video/plum-landing/",
+                    JsonUrl = "https://content.services.pbskids.org/v2/kidspbsorg/programs/plum-landing"
+                },
+                new ContentSource
+                {
+                    Name = "Ready Jet Go!",
+                    BaseVideoUrl = "https://pbskids.org/video/ready-jet-go/",
+                    JsonUrl = "https://content.services.pbskids.org/v2/kidspbsorg/programs/ready-jet-go"
+                },
+                new ContentSource
+                {
+                    Name = "Sesame Street",
+                    BaseVideoUrl = "https://pbskids.org/video/sesame-street/",
+                    JsonUrl = "https://cms-tc.pbskids.org/pbskidsvideoplaylists/sesame-street.json"
+                },
+                new ContentSource
+                {
+                    Name = "SciGirls",
+                    BaseVideoUrl = "https://pbskids.org/video/scigirls/",
+                    JsonUrl = "https://content.services.pbskids.org/v2/kidspbsorg/programs/scigirls"
+                },
+                new ContentSource
+                {
+                    Name = "Sid the Science Kid",
+                    BaseVideoUrl = "https://pbskids.org/video/sid-science-kid/",
+                    JsonUrl = "https://content.services.pbskids.org/v2/kidspbsorg/programs/sid-science-kid"
+                },
+                new ContentSource
+                {
+                    Name = "Splash and Bubbles",
+                    BaseVideoUrl = "https://pbskids.org/video/splash-and-bubbles/",
+                    JsonUrl = "https://content.services.pbskids.org/v2/kidspbsorg/programs/splash-and-bubbles"
+                },
+                new ContentSource
+                {
+                    Name = "Super Why",
+                    BaseVideoUrl = "https://pbskids.org/video/super-why/",
+                    JsonUrl = "https://content.services.pbskids.org/v2/kidspbsorg/programs/super-why"
+                },
+                new ContentSource
+                {
+                    Name = "Wild Kratts",
+                    BaseVideoUrl = "https://pbskids.org/video/wild-kratts/",
+                    JsonUrl = "https://cms-tc.pbskids.org/pbskidsvideoplaylists/wild-kratts.json"
+                },
+                new ContentSource
+                {
+                    Name = "WordGirl",
+                    BaseVideoUrl = "https://pbskids.org/video/wordgirl/",
+                    JsonUrl = "https://content.services.pbskids.org/v2/kidspbsorg/programs/wordgirl"
+                },
+                new ContentSource
+                {
+                    Name = "Word World",
+                    BaseVideoUrl = "https://pbskids.org/video/word-world/",
+                    JsonUrl = "https://cms-tc.pbskids.org/pbskidsvideoplaylists/word-world.json"
                 }
             };
         }
@@ -149,19 +281,18 @@ namespace PBSKidsPlayOn
                 // Don't reload Root ever again
                 vf.Dynamic = true;
 
-                var service = new FullEpisodeService();
+                var service = new FullEpisodeService(new PlayOnHttpClient());
 
                 foreach (var source in sources)
                 {
-                    VirtualFolder vfc = VFS.CreateFolder(vf, source.Name, "", false);
+                    VirtualFolder vfc = VFS.CreateFolder(vf, source.Name, "", true);
                     var playlist = service.FetchPlaylist(source.JsonUrl);
                     foreach (var item in playlist.Collections.Episodes.Content)
                     {
-                        VFS.CreateVideoFile(vfc, item.Title, source.BaseVideoUrl + item.Id, item.Description, item.Images != null ? item.Images.Mezzanine : null, DateTime.Today, "http://pbskids.org/video/daniel-tigers-neighborhood/" + item.Id, null, 25 * 60, 0, null, null);
+                        VFS.CreateVideoFile(vfc, item.Title, source.BaseVideoUrl + item.Id, item.Description, item.Images != null ? item.Images.Mezzanine : null, item.AirDate.Date, source.BaseVideoUrl + item.Id, null, item.DurationSeconds * 1000, 0, null, null);
                     }
                 }
-                
-			}
+            }
 		}
 
 		/// <summary>

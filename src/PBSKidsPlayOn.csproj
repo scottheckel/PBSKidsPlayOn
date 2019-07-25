@@ -65,10 +65,12 @@
     <Compile Include="ContentImages.cs" />
     <Compile Include="ContentSource.cs" />
     <Compile Include="FullEpisodeService.cs" />
+    <Compile Include="IPlayOnHttpClient.cs" />
     <Compile Include="PBSKids.cs" />
     <Compile Include="PlaylistCollection.cs" />
     <Compile Include="PlaylistData.cs" />
     <Compile Include="PlaylistEpisodes.cs" />
+    <Compile Include="PlayOnHttpClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup Condition=" '$(Configuration)' != 'Release' And '$(Configuration)' != 'Debug' ">
